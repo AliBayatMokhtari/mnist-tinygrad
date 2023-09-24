@@ -1,13 +1,11 @@
-# Installation
+# Installation Steps
 
-- Step 1
-
-  - Clone this repository
+  - Clone this repository.
   - `cd` to `./mnist-tinygrad`.
   - Create a virutuale enviroment using `python3 -m venv env`.
   - Activate enviroment using `source ./env/bin/activate` (it's for Linux and Mac, use `.\env\Scripts\activate` for Windows).
   - Run `which python` to make sure that your python interpreter comes from your virtual enviroment. Use `where python` for Windows.
-  - Install `tinygrad` with the offical documentation ([link](https://github.com/tinygrad/tinygrad#installation)).
+  - Install Tinygrad with the offical documentation ([link](https://github.com/tinygrad/tinygrad#installation)).
 
 # Usage
 
