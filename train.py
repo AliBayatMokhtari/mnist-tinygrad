@@ -14,8 +14,8 @@ def train_model(
         net: TinyNet,
         opt: SGD
 ):
-    for step in range(1000):
-        samp = np.random.randint(0, X_train.shape[0], size=(64))
+    for step in range(10000):
+        samp = np.random.randint(0, X_train.shape[0], size=(32))
         batch = Tensor(X_train[samp], requires_grad=False)
         labels = Tensor(Y_train[samp])
 
