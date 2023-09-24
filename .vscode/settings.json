@@ -1,0 +1,16 @@
+{
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none",
+  "editor.tabSize": 4,
+  "cSpell.words": [
+    "argmax",
+    "crossentropy",
+    "ndarray",
+    "optim",
+    "safetensors",
+    "samp",
+    "tinygrad"
+  ]
+}
